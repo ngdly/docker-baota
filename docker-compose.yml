@@ -1,0 +1,23 @@
+#Congratulations! Install succeeded!
+#==================================================================
+#Bt-Panel: http://106.38.75.122:8888
+#username: admin
+#password: f46d0418
+#Warning:
+#If you cannot access the panel,
+#release the following port (8888|888|80|443|20|21) in the security group
+web:
+  image: ngdly/baota:centos6.9
+  volumes:
+    - ./wwwroot:/www/wwwroot
+  ports:
+    - "80:80"
+    - "888:888"
+    - "8888:8888"
+    - "443:443"
+    - "20:20"
+    - "21:21"
+    - "3306:3306"
+  privileged: true
+  # command: /root/start.sh
+  # command: ["sh","./www/script.sh"]

@@ -1,12 +1,12 @@
 FROM centos:6.9
-MAINTAINER Jaeger <JaegerCode@gmail.com>
+MAINTAINER ngdly <ngdly@qq.com>
 
 ADD install.sh /root/
 ADD start.sh /
 
 USER root
 
-RUN yum -y install initscripts && sh /root/install.sh 2>&1 | tee /root/install.log
+RUN sh /root/install.sh
 
 RUN yum clean all
 

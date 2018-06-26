@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo 'starting bt....'
-service bt start
-
+/etc/init.d/bt start
+tail -f /tmp/panelBoot.pl
 /bin/bash
