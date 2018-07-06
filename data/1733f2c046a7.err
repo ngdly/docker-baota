@@ -1,0 +1,71 @@
+180626 22:18:43 [Note] Plugin 'FEDERATED' is disabled.
+180626 22:18:43 InnoDB: The InnoDB memory heap is disabled
+180626 22:18:43 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+180626 22:18:43 InnoDB: Compressed tables use zlib 1.2.3
+180626 22:18:43 InnoDB: Using Linux native AIO
+180626 22:18:43 InnoDB: Initializing buffer pool, size = 128.0M
+180626 22:18:43 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file /www/server/data/ibdata1 did not exist:
+InnoDB: a new database to be created!
+180626 22:18:43  InnoDB: Setting file /www/server/data/ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+180626 22:18:43  InnoDB: Log file /www/server/data/ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file /www/server/data/ib_logfile0 size to 64 MB
+InnoDB: Database physically writes the file full: wait...
+180626 22:18:43  InnoDB: Log file /www/server/data/ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file /www/server/data/ib_logfile1 size to 64 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+180626 22:18:44  InnoDB: Waiting for the background threads to start
+180626 22:18:45 InnoDB: 5.5.57 started; log sequence number 0
+180626 22:18:45 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180626 22:18:45 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180626 22:18:45 [Note] Server socket created on IP: '0.0.0.0'.
+180626 22:18:45 [Note] Event Scheduler: Loaded 0 events
+180626 22:18:45 [Note] /www/server/mysql/bin/mysqld: ready for connections.
+Version: '5.5.57-log'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution
+180626 22:18:46 [Note] /www/server/mysql/bin/mysqld: Normal shutdown
+
+180626 22:18:46 [Note] Event Scheduler: Purging the queue. 0 events
+180626 22:18:46  InnoDB: Starting shutdown...
+180626 22:18:46  InnoDB: Shutdown completed; log sequence number 1595675
+180626 22:18:46 [Note] /www/server/mysql/bin/mysqld: Shutdown complete
+
+180626 22:18:47 [Note] Plugin 'FEDERATED' is disabled.
+180626 22:18:47 InnoDB: The InnoDB memory heap is disabled
+180626 22:18:47 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+180626 22:18:47 InnoDB: Compressed tables use zlib 1.2.3
+180626 22:18:47 InnoDB: Using Linux native AIO
+180626 22:18:47 InnoDB: Initializing buffer pool, size = 128.0M
+180626 22:18:47 InnoDB: Completed initialization of buffer pool
+180626 22:18:47 InnoDB: highest supported file format is Barracuda.
+180626 22:18:47  InnoDB: Waiting for the background threads to start
+180626 22:18:48 InnoDB: 5.5.57 started; log sequence number 1595675
+180626 22:18:48 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180626 22:18:48 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180626 22:18:48 [Note] Server socket created on IP: '0.0.0.0'.
+180626 22:18:48 [Note] /www/server/mysql/bin/mysqld: ready for connections.
+Version: '5.5.57-log'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution
+180626 22:18:55 [Note] Plugin 'FEDERATED' is disabled.
+180626 22:18:55 InnoDB: The InnoDB memory heap is disabled
+180626 22:18:55 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+180626 22:18:55 InnoDB: Compressed tables use zlib 1.2.3
+180626 22:18:55 InnoDB: Using Linux native AIO
+180626 22:18:55 InnoDB: Initializing buffer pool, size = 128.0M
+180626 22:18:55 InnoDB: Completed initialization of buffer pool
+180626 22:18:55 InnoDB: highest supported file format is Barracuda.
+180626 22:18:55  InnoDB: Waiting for the background threads to start
+180626 22:18:56 InnoDB: 5.5.57 started; log sequence number 1595675
+180626 22:18:56 [Note] Recovering after a crash using mysql-bin
+180626 22:18:56 [Note] Starting crash recovery...
+180626 22:18:56 [Note] Crash recovery finished.
+180626 22:18:56 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+180626 22:18:56 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+180626 22:18:56 [Note] Server socket created on IP: '0.0.0.0'.
+180626 22:18:56 [Note] Event Scheduler: Loaded 0 events
+180626 22:18:56 [Note] /www/server/mysql/bin/mysqld: ready for connections.
+Version: '5.5.57-log'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution
